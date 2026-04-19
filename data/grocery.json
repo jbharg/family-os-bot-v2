@@ -1,0 +1,8 @@
+{
+  "_comment": "Grocery bot status. Updated by the grocery bot after each run, or manually. Set needs_attention=true to surface this in the digest.",
+  "status_summary": "Grocery bot ran successfully. Next order scheduled.",
+  "needs_attention": false,
+  "notes": "",
+  "next_run": "2026-04-19",
+  "last_run": "2026-04-12"
+}
