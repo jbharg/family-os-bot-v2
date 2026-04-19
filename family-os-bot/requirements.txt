@@ -1,0 +1,9 @@
+# Family OS Bot v1 — runtime dependencies
+#
+# The bot uses only Python standard library modules for email (smtplib, email),
+# JSON (json), and date handling (datetime, zoneinfo).
+#
+# tzdata provides the IANA timezone database on Linux environments (GitHub Actions).
+# zoneinfo (Python 3.9+) uses this automatically on systems where the OS does not
+# include timezone data (e.g., Ubuntu minimal images used by GitHub Actions).
+tzdata==2025.1

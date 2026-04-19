@@ -1,0 +1,122 @@
+{
+  "_comment": "Sarah's college admissions tracking. Fields: title, category, priority (critical/important/light), due_date (YYYY-MM-DD or null), owner, status (pending/done/overdue), notes, tags (list of strings), protected_during_ap_window (bool). ap_windows: list of {start, end} date ranges when non-critical items are suppressed.",
+  "ap_windows": [
+    {
+      "start": "2026-05-01",
+      "end": "2026-05-17",
+      "notes": "AP exam period — suppress non-critical admissions tasks to protect Sarah's focus."
+    }
+  ],
+  "items": [
+    {
+      "title": "Send ACT fee waiver email to Ms. McCann",
+      "category": "act",
+      "priority": "critical",
+      "due_date": "2026-04-25",
+      "owner": "JB",
+      "status": "pending",
+      "notes": "Draft and send email requesting fee waiver letter for June ACT registration.",
+      "tags": ["act", "fee-waiver", "deadline"],
+      "protected_during_ap_window": false
+    },
+    {
+      "title": "Register Sarah for June ACT",
+      "category": "act",
+      "priority": "critical",
+      "due_date": "2026-05-02",
+      "owner": "JB",
+      "status": "pending",
+      "notes": "June ACT registration. Requires fee waiver letter from McCann first. Check ACT.org.",
+      "tags": ["act", "registration", "deadline"],
+      "protected_during_ap_window": false
+    },
+    {
+      "title": "Register Sarah for September ACT (backup)",
+      "category": "act",
+      "priority": "important",
+      "due_date": "2026-07-15",
+      "owner": "JB",
+      "status": "pending",
+      "notes": "Backup September ACT registration in case June score needs improvement.",
+      "tags": ["act", "registration"],
+      "protected_during_ap_window": true
+    },
+    {
+      "title": "Draft Cameron science-only tutoring brief",
+      "category": "tutoring",
+      "priority": "important",
+      "due_date": "2026-04-28",
+      "owner": "JB",
+      "status": "pending",
+      "notes": "Brief for Cameron: Sarah needs science-section-only ACT tutoring. Define scope and schedule.",
+      "tags": ["tutoring", "act"],
+      "protected_during_ap_window": true
+    },
+    {
+      "title": "Document TOC results for college applications",
+      "category": "extracurriculars",
+      "priority": "important",
+      "due_date": "2026-06-01",
+      "owner": "Sarah",
+      "status": "pending",
+      "notes": "Write up Sarah's TOC (Tournament of Champions) results for the activities section. Include placement and context.",
+      "tags": ["extracurriculars", "application-material"],
+      "protected_during_ap_window": true
+    },
+    {
+      "title": "HBCU merit scholarship research",
+      "category": "research",
+      "priority": "important",
+      "due_date": null,
+      "owner": "JB",
+      "status": "pending",
+      "notes": "Research merit scholarship opportunities at HBCUs. Flag top 3-5 schools with scholarship criteria.",
+      "tags": ["hbcu", "scholarships", "research", "watchout"],
+      "protected_during_ap_window": true
+    },
+    {
+      "title": "Confirm counselor meeting deadline",
+      "category": "counselor",
+      "priority": "critical",
+      "due_date": "2026-04-30",
+      "owner": "JB",
+      "status": "pending",
+      "notes": "Check when school counselor needs to be engaged for letters/transcript releases. Set meeting.",
+      "tags": ["counselor", "deadline"],
+      "protected_during_ap_window": false
+    },
+    {
+      "title": "Begin teacher rec groundwork",
+      "category": "recommendations",
+      "priority": "important",
+      "due_date": "2026-05-20",
+      "owner": "Sarah",
+      "status": "pending",
+      "notes": "Sarah should identify which teachers to ask. Draft the ask conversation. Do NOT wait until fall.",
+      "tags": ["recommendations", "teacher"],
+      "protected_during_ap_window": true
+    },
+    {
+      "title": "Monitor Morehead-Cain eligibility and timeline",
+      "category": "scholarships",
+      "priority": "important",
+      "due_date": null,
+      "owner": "JB",
+      "status": "pending",
+      "notes": "Morehead-Cain is school-nominated. Confirm eligibility criteria, nomination process, and timeline. This is passive monitoring for now.",
+      "tags": ["scholarship", "morehead-cain", "watchout"],
+      "protected_during_ap_window": true
+    },
+    {
+      "title": "AP exam prep — protect Sarah's focus window",
+      "category": "academics",
+      "priority": "critical",
+      "due_date": "2026-05-01",
+      "owner": "JB",
+      "status": "pending",
+      "notes": "No new admissions asks during AP window (May 1-17). Only surface critical admissions items during this period.",
+      "tags": ["ap-exams", "watchout"],
+      "protected_during_ap_window": false
+    }
+  ]
+}
